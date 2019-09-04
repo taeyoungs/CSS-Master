@@ -4,8 +4,8 @@ CSS Next, CSS Grid, Flexbox ...
 # CSS Flex
 - [x] CSS Flex Basics
 - [x] Main Axis and Cross Axis
-- [ ] Flex Direction
-- [ ] Flex Wrap
+- [x] Flex Direction
+- [x] Flex Wrap
 - [ ] Align Self
 
 # CSS Grid
@@ -41,3 +41,14 @@ CSS Next, CSS Grid, Flexbox ...
 - [ ] CSS Grid Kiss
 - [ ] Practice Flexbox
 - [ ] Practice Grid
+  
+# 정리
+
+## 19.09.04
+
+| flex-direction
+
+1) row - main axis 수평, cross axis 수직
+2) column - main axis 수직, cross axis 수평
+3) flex-wrap - 흘러넘침을 제어할 수 있는 속성
+4) align-self(flex items에게 직접 적용) - cross axis control
