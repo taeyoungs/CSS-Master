@@ -6,10 +6,10 @@ CSS Next, CSS Grid, Flexbox ...
 - [x] Main Axis and Cross Axis
 - [x] Flex Direction
 - [x] Flex Wrap
-- [ ] Align Self
+- [x] Align Self
 
 # CSS Grid
-- [ ] CSS Grid Basics ( Row, columns and gaps)
+- [x] CSS Grid Basics ( Row, columns and gaps)
 - [ ] Auto columns, auto rows
 - [ ] Template Areas
 - [ ] fr unit, repeat
