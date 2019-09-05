@@ -8,9 +8,8 @@
     <style>
       .father {
         display: grid;
-        grid-auto-rows: 200px;
         grid-gap: 5px;
-        grid-template-columns: repeat(2, 1fr) 2fr 1fr;
+        grid-template-columns: min-content repeat(3, 1fr);
       }
       .first {
         background-color: #ffeaa7;
@@ -28,7 +27,11 @@
   </head>
   <body>
     <div class="father">
-      <div class="first"></div>
+      <div class="first">
+        In the 1950 United States Senate election in California, Republican
+        Richard Nixon (pictured) defeated Democrat Helen Gahagan Douglas in a
+        campaign characterized by accusations and name-calling.
+      </div>
       <div class="second"></div>
       <div class="third"></div>
       <div class="fourth"></div>
