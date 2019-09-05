@@ -9,32 +9,31 @@
       .father {
         display: grid;
         grid-gap: 5px;
-        grid-template-columns: min-content repeat(3, 1fr);
+        grid-auto-rows: 100px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       }
-      .first {
-        background-color: #ffeaa7;
+      .box:nth-child(even) {
+        background-color: #0984e3;
       }
-      .second {
-        background-color: #81ecec;
-      }
-      .third {
-        background-color: #74b9ff;
-      }
-      .fourth {
-        background-color: #fab1a0;
+      .box:nth-child(odd) {
+        background-color: #fdcb6e;
       }
     </style>
   </head>
   <body>
     <div class="father">
-      <div class="first">
-        In the 1950 United States Senate election in California, Republican
-        Richard Nixon (pictured) defeated Democrat Helen Gahagan Douglas in a
-        campaign characterized by accusations and name-calling.
-      </div>
-      <div class="second"></div>
-      <div class="third"></div>
-      <div class="fourth"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
     </div>
   </body>
 </html>
