@@ -8,28 +8,20 @@
     <style>
       .father {
         display: grid;
-        grid-template-areas:
-          'header header header'
-          'content content sidebar'
-          'content content sidebar'
-          'footer footer footer';
         grid-auto-rows: 200px;
         grid-gap: 5px;
+        grid-template-columns: repeat(2, 1fr) 2fr 1fr;
       }
       .first {
-        grid-area: header;
         background-color: #ffeaa7;
       }
       .second {
-        grid-area: footer;
         background-color: #81ecec;
       }
       .third {
-        grid-area: content;
         background-color: #74b9ff;
       }
       .fourth {
-        grid-area: sidebar;
         background-color: #fab1a0;
       }
     </style>
