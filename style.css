@@ -1,3 +1,9 @@
+:root {
+  --awesomeColor: #f6e58d;
+}
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
 .father {
   display: grid;
   grid-auto-rows: minmax(100px, 1fr);
@@ -10,7 +16,7 @@ a {
 }
 
 a:matches(.target) {
-  color: gray(20);
+  color: var(--awesomeColor);
 }
 
 a:not(.target) {
@@ -19,4 +25,8 @@ a:not(.target) {
 
 input:blank {
   background-color: red;
+}
+
+:--heading {
+  color: #6ab04c;
 }

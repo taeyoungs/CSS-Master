@@ -35,8 +35,8 @@ CSS Next, CSS Grid, Flexbox ...
 # CSS4 Awesomeness
 
 - [x] :matches , :not
-- [ ] CSS Variables
-- [ ] @custom-selector
+- [x] CSS Variables
+- [x] @custom-selector
 - [ ] @custom-media
 - [ ] Media Query Ranges
 - [ ] color-mod, gray(), system-ui
@@ -71,3 +71,11 @@ CSS Next, CSS Grid, Flexbox ...
 6. fr, repeat(), minmax(), max-content, min-content 😁
 7. auto-fill : 최대한 많은 columns ro rows를 생성하려고 한다. ghost-grid를 만들며 미리 영역을 만들고 content를 받아와서 영역에 집어넣는 방식
 8. auto-fit : 정의한 content를 받아와서 사이즈에 맡게 브라우저에 펼쳐준다. 미리 영역을 만들지 않으며 content를 몇 개 받아올 지 모르는 상황에 유용하다.
+
+## Tip
+
+    "files.associations": {
+        "*.css": "postcss"
+    }
+
+적용시키니깐 vscode가 원래 인식하던걸 인식 못하게 된 것 같다. 😕
