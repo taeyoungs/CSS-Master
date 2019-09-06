@@ -1,0 +1,22 @@
+.father {
+  display: grid;
+  grid-auto-rows: minmax(100px, 1fr);
+  font-size: 30pt;
+}
+
+a {
+  background-color: aliceblue;
+  border: 1px solid white;
+}
+
+a:matches(.target) {
+  color: gray(20);
+}
+
+a:not(.target) {
+  text-decoration: none;
+}
+
+input:blank {
+  background-color: red;
+}

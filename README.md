@@ -24,17 +24,17 @@ CSS Next, CSS Grid, Flexbox ...
 - [x] Line Naming
 - [x] Grid Row, Row Start and End
 - [x] Grid Area
-- [ ] Justify, Align, Place Self
+- [x] Justify, Align, Place Self
 
 # Using CSS4
 
-- [ ] Installing Parcel
-- [ ] Configuring PostCSS
-- [ ] Testing
+- [x] Installing Parcel
+- [x] Configuring PostCSS
+- [x] Testing
 
 # CSS4 Awesomeness
 
-- [ ] :matches , :not
+- [x] :matches , :not
 - [ ] CSS Variables
 - [ ] @custom-selector
 - [ ] @custom-media
