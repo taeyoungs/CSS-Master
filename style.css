@@ -1,32 +1,42 @@
+/* 
+
+#1 CSS Variables
+
 :root {
-  --awesomeColor: #f6e58d;
+  --awesomeColor: 1px solid red;
 }
 
-@custom-selector :--heading h1, h2, h3, h4, h5, h6;
-
-.father {
-  display: grid;
-  grid-auto-rows: minmax(100px, 1fr);
-  font-size: 30pt;
+li:first-child {
+    border: var(--awesomeColor);
 }
 
-a {
-  background-color: aliceblue;
-  border: 1px solid white;
-}
+#2 :matches & :not
 
 a:matches(.target) {
-  color: var(--awesomeColor);
+  color: gray(20);
 }
 
 a:not(.target) {
   text-decoration: none;
 }
 
-input:blank {
-  background-color: red;
+#3 Custom-selector & Custom-media
+
+@custom-media --ipad-size (300px < width <= 850px);
+
+@custom-selector --heading h1, h2, h3, h4, h5;
+
+@media (--ipad-size) {
+  body {
+    background-color: #ffbe76;
+  }
+} */
+
+h1 {
+  font-size: 40pt;
+  color: #ff7979;
 }
 
-:--heading {
-  color: #6ab04c;
+h1:hover {
+  color: color-mod(#ff7979 lightness(80%));
 }
