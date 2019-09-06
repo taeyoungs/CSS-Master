@@ -18,10 +18,10 @@ CSS Next, CSS Grid, Flexbox ...
 - [x] fr unit, repeat
 - [x] minmax, max-content, min-content
 - [x] auto-fill, auto-fit
-- [ ] Justify Content, Align Content and Place Content
-- [ ] Justify Items, Align Items and Place Items
-- [ ] Grid Column, Column Start and End
-- [ ] Line Naming
+- [x] Justify Content, Align Content and Place Content
+- [x] Justify Items, Align Items and Place Items
+- [x] Grid Column, Column Start and End
+- [x] Line Naming
 - [ ] Grid Row, Row Start and End
 - [ ] Grid Area
 - [ ] Justify, Align, Place Self
