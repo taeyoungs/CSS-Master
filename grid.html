@@ -11,7 +11,7 @@
         grid-gap: 5px;
         grid-auto-flow: dense;
         grid-auto-rows: 100px;
-        grid-template-columns: [first-line] repeat(5, 1fr) [last-line];
+        grid-template-columns: repeat(5, 1fr);
         color: white;
       }
       .box {
@@ -25,9 +25,8 @@
       .box:nth-child(odd) {
         background-color: #fdcb6e;
       }
-
       .box:first-child {
-        grid-column: 3 / last-line;
+        justify-self: center;
       }
     </style>
   </head>

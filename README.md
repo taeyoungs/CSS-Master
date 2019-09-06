@@ -22,8 +22,8 @@ CSS Next, CSS Grid, Flexbox ...
 - [x] Justify Items, Align Items and Place Items
 - [x] Grid Column, Column Start and End
 - [x] Line Naming
-- [ ] Grid Row, Row Start and End
-- [ ] Grid Area
+- [x] Grid Row, Row Start and End
+- [x] Grid Area
 - [ ] Justify, Align, Place Self
 
 # Using CSS4
