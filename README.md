@@ -40,7 +40,7 @@ CSS Next, CSS Grid, Flexbox ...
 - [x] @custom-media
 - [x] Media Query Ranges
 - [x] color-mod, gray(), system-ui
-- [ ] Nesting Rules
+- [x] Nesting Rules
 
 # Conclusions
 

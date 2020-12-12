@@ -24,10 +24,12 @@
       "postcss-preset-env": {
         "stage": 0
       },
-      "postcss-color-mod-function": {}
+      "postcss-color-mod-function": {},
+      "postcss-grid-kiss": true
     }
   },
   "devDependencies": {
-    "postcss-color-mod-function": "^3.0.3"
+    "postcss-color-mod-function": "^3.0.3",
+    "postcss-grid-kiss": "^2.2.0"
   }
 }

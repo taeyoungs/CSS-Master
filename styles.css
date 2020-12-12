@@ -30,7 +30,7 @@ a:not(.target) {
   body {
     background-color: #ffbe76;
   }
-} */
+} 
 
 h1 {
   font-size: 40pt;
@@ -39,4 +39,23 @@ h1 {
 
 h1:hover {
   color: color-mod(#ff7979 lightness(80%));
+}
+*/
+
+main {
+  background-color: blue;
+  & section {
+    background-color: red;
+    width: 500px;
+    & li {
+      background-color: yellow;
+      width: 400px;
+      & a {
+        color: tomato;
+        &:hover {
+          font-size: 30px;
+        }
+      }
+    }
+  }
 }
